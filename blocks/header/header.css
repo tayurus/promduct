@@ -1,0 +1,140 @@
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 1170px;
+    margin: 0px auto;
+    padding: 7px 15px;
+}
+
+.header__primary{
+    max-width: 668px;
+    flex-grow: 1;
+    padding: 0px 1rem;
+    padding-bottom: 20px;
+}
+
+.header__quote{
+    color: #00b2b1;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.header__text{
+    color: #333333;
+}
+
+.header__search{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: 1px solid #eeeeee;
+    background-color: #fafafa;
+    padding: 12px;
+    max-width: 540px;
+    width: 100%;
+}
+
+.header__top-left{
+    max-width: 300px;
+    min-width: 300px;
+    padding: 0px 1rem;
+    padding-bottom: 20px;
+}
+
+.header__bottom{
+    background-color: #242424;
+    padding: 23px 0px;
+}
+
+.header__nav-item{
+    color: #ffffff;
+    font-weight: 500;
+    padding: 6px 0px;
+}
+
+.header__nav-item_active{
+    background: #01c3c1;
+    border-radius: 3px;
+    background: #01c3c1;
+    border-radius: 3px;
+    padding: 6px 30px;
+}
+
+
+
+.header__menu li:not(:first-child){
+    padding: 0px 45px;
+}
+
+.header__menu li:not(:last-child){
+    border-right: 1px solid #383838;
+}
+
+.header__menu li:last-child{
+    padding: 0px;
+    padding-left: 45px;
+}
+
+.header__menu li:first-child{
+    padding-right: 45px;
+}
+
+@media (max-width:1200px),(max-device-width:1200px) {
+    .header__menu li{
+        padding: 0px !important;
+        border-right: none !important;
+    }
+}
+
+@media (max-width:767px),(max-device-width:767px) {
+    .header__menu{
+        margin-top: 10px;
+    }
+
+    .header__menu li{
+        padding: 0px !important;
+        margin: 5px 0px;
+    }
+}
+
+@media (max-width:1045px),(max-device-width:1045px) {
+
+    .header__logo{
+        width: 90px;
+        align-self: center;
+    }
+
+    .header__quote{
+        font-size: 18px;
+    }
+
+    header .link_header-phone{
+        font-size: 20px;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width:947px),(max-device-width:947px) {
+    .header__primary{
+        order: 1;
+    }
+
+    .header__top{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:575px),(max-device-width:575px) {
+    .header__top{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__primary{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

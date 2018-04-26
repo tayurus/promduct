@@ -1,8 +1,25 @@
-.button{
+button{
     outline: none;
-    padding: 10px 22px;
-    text-align: center;
-    display: block;
+    cursor: pointer;
+}
+
+.button_search{
+    padding-left: 53px;
+    padding-right: 28px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    background: #01c3c1 url("img/search.png") no-repeat 28px center / 14px 15px;
+}
+
+.button_header-call{
+    height: 44px;
+    border-radius: 3px;
+    border: 1px solid #707070;
+    padding: 0px 28px;
+    color: #646464;
+    font-weight: 500;
+    background: #fff;
     margin: 0px auto;
-    width: max-content;
 }

@@ -2,3 +2,46 @@ noscript
     p Please enable Javascript
     
 header.header
+
+    .header__top
+        img.header__logo(src="img/logo.png", alt="ПСТ")
+        .header__primary
+            .d-flex.justify-content-between.flex-column.flex-sm-row
+                h2.header__quote Успех нашего
+                    br
+                    | заказчика – наш успех
+                .header__info
+                    .d-flex.text-center.text-sm-left
+                        a.link.header__text.mr-2(href="mailto:info@promduct.ru") info@promduct.ru
+                        a.link.header__text(href="mailto:promsiltek@gmail.com") promsiltek@gmail.com
+                    .header__text.text-center.text-sm-right Время работы: пн-пт 09:00-18:00
+            form.d-flex
+                input.header__search(type="search", name="search", placeholder="Поиск по сайту", required)
+                button.button_search Искать
+        .header__top-left
+            a.link.link_header-phone(href="tel:+74959406661") +7 (495) 940-66-61
+            button.button_header-call Заказать обратный звонок
+            
+    .header__bottom
+        nav.navbar.navbar-expand-md.py-0.d-flex.justify-content-center
+            button.navbar-toggler(type='button', data-toggle='collapse', data-target='#headerNav', aria-controls='headerNav', aria-expanded='false', aria-label='Toggle navigation')
+                i.fas.fa-align-justify(style="color:#fff")
+                
+            #headerNav.collapse.navbar-collapse
+                    .container
+                        ul.header__menu.navbar-nav.d-flex.flex-wrap.justify-content-between.align-items-center
+                            li
+                                a.header__nav-item.header__nav-item_active(href="#") Главная
+                            li
+                                a.header__nav-item(href="#") О компании
+                            li
+                                a.header__nav-item(href="#") Силосы
+                            li
+                                a.header__nav-item(href="#") Цены
+                            li
+                                a.header__nav-item(href="#") Галерея
+                            li
+                                a.header__nav-item(href="#") Информация
+                            li
+                                a.header__nav-item(href="#") Контакты
+                
