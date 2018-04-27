@@ -24,6 +24,7 @@
 /* override owl-carousel */
 .main-slider .owl-nav{
     height: 0px !important;
+    margin: 0px !important;
 }
 
 .main-slider .owl-prev{
