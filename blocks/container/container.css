@@ -10,6 +10,11 @@
     background: url("img/main-bg.png") no-repeat center / cover;
 }
 
+.container_about{
+    background:#fafafa;
+    margin:40px auto;
+}
+
 @media (max-width:1200px),(max-device-width:1200px) {
     .container_consultation-slider{
         margin-top: 0px;
