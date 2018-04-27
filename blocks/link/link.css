@@ -12,6 +12,22 @@
     color: #ffffff;
 }
 
+.link_product{
+    color: #01c3c1;
+    font-weight: 500;
+    position: relative;
+}
+
+.link_product::after{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 12px;
+    right: -22px;
+    top: 5px;
+    background: url("img/product-more.png") no-repeat center / contain;
+}
+
 @media (max-width:1200px),(max-device-width:1200px) {
     .link_footer-phone{
         font-size: 28px;
