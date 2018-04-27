@@ -109,7 +109,7 @@
         font-size: 18px;
     }
 
-    header .link_header-phone{
+    .link_header-phone{
         font-size: 20px;
         display: block;
         text-align: center;
@@ -136,5 +136,17 @@
     .header__primary{
         padding-left: 0px;
         padding-right: 0px;
+    }
+}
+
+@media (max-width:320px),(max-device-width:320px) {
+    .header__top-left{
+        min-width: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .link_header-phone{
+        font-size: 28px;
     }
 }
