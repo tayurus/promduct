@@ -1,0 +1,34 @@
+.clients-carousel{
+    margin-bottom: 40px;
+}
+
+.clients-carousel img{
+    width: auto !important;
+    margin: 0px auto !important;
+}
+
+.clients-carousel .owl-nav{
+    height: 0px !important;
+    margin: 0px !important;
+}
+
+.clients-carousel .owl-nav .owl-prev{
+    font-size: 0px !important;
+    width: 16px;
+    height: 26px;
+    background: url("img/client-arrow-left.png") no-repeat center / contain !important;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0%;
+}
+.clients-carousel .owl-nav .owl-next{
+    font-size: 0px !important;
+    width: 16px;
+    height: 26px;
+    background: url("img/client-arrow-right.png") no-repeat center / contain !important;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0%;
+}
