@@ -1,0 +1,13 @@
+.container_consultation-slider{
+    max-width: 1140px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width:1200px),(max-device-width:1200px) {
+    .container_consultation-slider{
+        margin-top: 0px;
+    }
+}
