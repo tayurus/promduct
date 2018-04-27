@@ -2,8 +2,18 @@
     text-decoration: none;
 }
 
-.link_header-phone{
+.link_header-phone, .link_footer-phone{
     color: #333333;
     font-size: 31px;
     font-weight: 500;
+}
+
+.link_footer-phone{
+    color: #ffffff;
+}
+
+@media (max-width:1200px),(max-device-width:1200px) {
+    .link_footer-phone{
+        font-size: 28px;
+    }
 }

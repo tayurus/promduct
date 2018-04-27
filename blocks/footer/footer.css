@@ -1,0 +1,20 @@
+footer{
+    background: #333333;
+    padding-top: 44px;
+    padding-bottom: 23px;
+}
+
+.footer__text{
+    color: #eeeeee;
+}
+
+.footer__text_big{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer__bottom{
+    padding-top: 23px;
+    border-top: 1px solid #cccccc;
+}

@@ -13,7 +13,7 @@ button{
     background: #01c3c1 url("img/search.png") no-repeat 28px center / 14px 15px;
 }
 
-.button_header-call{
+.button_header-call, .button_footer-call{
     height: 44px;
     border-radius: 3px;
     border: 1px solid #707070;
@@ -22,4 +22,10 @@ button{
     font-weight: 500;
     background: #fff;
     margin: 0px auto;
+}
+
+.button_footer-call{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #ffffff;
 }

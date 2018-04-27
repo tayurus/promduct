@@ -7,3 +7,15 @@ body{
     padding: 0px;
     font-family: Roboto;
 }
+
+.text-gray{
+    color: #999999 !important;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.text_small{
+    font-size: 14px !important;
+}
