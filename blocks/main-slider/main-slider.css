@@ -6,7 +6,7 @@
     background: url("img/main-slider-bg.png") no-repeat center / cover;
     display: flex;
     justify-content: space-around;
-    padding: 30px 0px;
+    padding: 35px 30px;
     align-items: center;
 }
 
@@ -65,4 +65,21 @@
    left: 50% !important;
    transform: translateX(-50%) !important;
    bottom: 3% !important;
+}
+
+
+@media (max-width:1200px),(max-device-width:1200px) {
+    .main-slider{
+        max-width: 100%;
+    }
+}
+
+@media (max-width:710px),(max-device-width:710px) {
+    .main-slider__title{
+        font-size: 18px;
+    }
+
+    .main-slider__img{
+        max-width: 80px;
+    }
 }
