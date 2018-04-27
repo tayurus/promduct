@@ -6,6 +6,10 @@
     justify-content: space-between;
 }
 
+.container_main-bg{
+    background: url("img/main-bg.png") no-repeat center / cover;
+}
+
 @media (max-width:1200px),(max-device-width:1200px) {
     .container_consultation-slider{
         margin-top: 0px;

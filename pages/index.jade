@@ -5,10 +5,11 @@ html(lang="ru")
         include ../blocks/header/header.jade
             
         main
-        section.container_consultation-slider.flex-column.flex-xl-row.align-items-center
-            include ../blocks/main-slider/main-slider.jade
-            include ../blocks/consultation/consultation.jade
-        
-        include ../blocks/product/product.jade        
+        .container-fluid.container_main-bg
+            section.container_consultation-slider.flex-column.flex-xl-row.align-items-center
+                include ../blocks/main-slider/main-slider.jade
+                include ../blocks/consultation/consultation.jade
+            
+            include ../blocks/product/product.jade        
         
         include ../blocks/footer/footer.jade

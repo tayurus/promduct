@@ -19,3 +19,7 @@ body{
 .text_small{
     font-size: 14px !important;
 }
+
+.bg-white{
+    background-color: #fff;
+}
