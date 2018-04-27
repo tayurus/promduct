@@ -28,6 +28,21 @@
     background: url("img/product-more.png") no-repeat center / contain;
 }
 
+.link_product-black{
+    color: #242424;
+    position: relative;
+}
+
+.link_product-black::after{
+    position: absolute;
+    content: "";
+    width: 8px;
+    height: 12px;
+    left: -22px;
+    top: 4px;
+    background: url("img/product-more-black.png") no-repeat center / contain;
+}
+
 @media (max-width:1200px),(max-device-width:1200px) {
     .link_footer-phone{
         font-size: 28px;
