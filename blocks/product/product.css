@@ -3,6 +3,10 @@
     border: 2px solid #dddddd;
 }
 
+.product_small{
+    width: 218px;
+}
+
 .product__title{
     color: #ffffff;
     font-size: 18px;
@@ -15,6 +19,11 @@
 .product__img{
     max-width: 263px;
     max-height: 375px;
+}
+
+.product_small > .product__img{
+    max-width: 218px;
+    max-height: 312px;
 }
 
 .product__bottom{
@@ -38,4 +47,13 @@
     top: 6px;
     left: -4px;
     background: url("img/product-icon.png") no-repeat center / contain;
+}
+
+.product_small .link_product{
+    font-size: 14px !important;
+}
+
+.product_small .link_product::after{
+    right: -15px !important;
+    top: 3px !important;
 }

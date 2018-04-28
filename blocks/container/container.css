@@ -7,13 +7,25 @@
 }
 
 .container_main-bg{
-    background: url("img/main-bg.png") no-repeat center / cover;
+    background: url("img/main-bg.png") no-repeat center top / contain;
     padding: 0px;
 }
 
 .container_about{
     background:#fafafa;
     margin:40px auto;
+}
+
+.container__img{
+    max-width: 500px;
+    margin: 0px 20px 20px 0px;
+}
+
+@media (max-width:600px),(max-device-width:600px) {
+    .container__img{
+        max-width: 280px;
+        margin: 0px 0px 20px 0px;
+    }
 }
 
 @media (max-width:1200px),(max-device-width:1200px) {
