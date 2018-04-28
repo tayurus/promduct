@@ -10,6 +10,8 @@
 
 .link_footer-phone{
     color: #ffffff;
+    position: relative;
+    top: 4px;
 }
 
 .link_product{
