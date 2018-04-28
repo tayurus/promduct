@@ -1,0 +1,35 @@
+.breadcrumbs{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+}
+
+.breadcrumbs li:not(:first-child){
+    position: relative;
+    padding-left: 40px;
+}
+
+.breadcrumbs li:not(:first-child)::before{
+    position: absolute;
+    content: "";
+    left: 15px;
+    top: 6px;
+    width: 6px;
+    height: 10px;
+    background: url("img/breadcrumbs-arrow.png") no-repeat center / contain;
+}
+
+.breadcrumbs li.breadcrumbs__item_active::before{
+    background: url("img/breadcrumbs-arrow-active.png") no-repeat center / contain;
+}
+
+.breadcrumbs__item a{
+    color: #999999 !important;
+    font-size: 14px !important;
+}
+
+.breadcrumbs__item_active{
+    font-weight: 700;
+}
