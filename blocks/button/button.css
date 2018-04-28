@@ -51,3 +51,12 @@ button{
     height: 32px;
     border: none;
 }
+
+.button_news{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0px 17px;
+    border: none;
+    background: #303030;
+}
