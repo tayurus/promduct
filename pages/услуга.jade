@@ -4,6 +4,17 @@ html(lang="ru")
     body.text-center.text-md-left
         include ../blocks/header/header.jade
             
-        main    
-            include ../blocks/breadcrumbs/breadcrumbs.jade
+        main 
+            
+            .container-fluid.container_main-bg
+                
+                section.container.bg-white
+                    include ../blocks/breadcrumbs/breadcrumbs.jade
+                    .title
+                        h2.title__text Бункеры для сыпучих материалов
+                    .d-flex
+                        include ../blocks/articles/articles.jade
+            
+             
+            
         include ../blocks/footer/footer.jade
