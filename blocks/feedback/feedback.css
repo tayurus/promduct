@@ -9,6 +9,7 @@
     color: #242424;
     font-size: 16px;
     line-height: 28px;
+    margin-bottom: 15px;
 }
 
 .feedback__img1{
@@ -19,12 +20,13 @@
 .feedback__img2{
     max-width: 293px;
     max-height: 348px;
+    border: 1px solid #ccc;
 }
 
 .feedback__show{
     position: absolute;
-    right: 6%;
-    bottom: 2%;
+    right: 2%;
+    bottom: 4%;
     cursor: pointer;
 }
 

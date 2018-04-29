@@ -4,6 +4,7 @@
     list-style: none;
     flex-wrap: wrap;
     padding: 15px 0px;
+    margin: 0px;
 }
 
 .breadcrumbs li:not(:first-child){
