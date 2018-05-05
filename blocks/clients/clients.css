@@ -5,6 +5,7 @@
 .clients-carousel img{
     width: auto !important;
     margin: 0px auto !important;
+    filter: grayscale(100%);
 }
 
 .clients-carousel .owl-nav{

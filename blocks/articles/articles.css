@@ -20,6 +20,16 @@
     padding: 0px;
 }
 
+.articles__sublist-title{
+    cursor: pointer;
+}
+
+
+.articles__sublist-title:not(.articles__sublist-title_active){
+    background-color: #fafafa;
+}
+
+
 .articles__sublist-title a{
     color: #444444;
     line-height: 18px;

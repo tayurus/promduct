@@ -1,6 +1,12 @@
 .title{
     background-color: #cccccc;
     margin: 30px auto;
+    border-radius: 3px;
+}
+
+.title_categories{
+    max-width: 1140px;
+    margin-top: 0px;
 }
 
 .title__text{
@@ -12,4 +18,5 @@
     padding: 13px 35px 13px 16px;
     background-color: #686868;
     margin: 0px;
+    border-radius: 3px 0 0 3px;
 }

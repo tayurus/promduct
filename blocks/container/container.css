@@ -1,6 +1,14 @@
+@media (min-width: 1200px){
+    .container {
+        max-width: 1170px !important;
+    }
+}
+
 .container_consultation-slider{
-    max-width: 1140px;
-    margin: 30px auto;
+    max-width: 1170px;
+    padding: 30px 15px;
+    background-color: #fff;
+    margin: 0px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
