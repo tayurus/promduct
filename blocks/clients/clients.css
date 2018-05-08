@@ -8,6 +8,10 @@
     filter: grayscale(100%);
 }
 
+.clients-carousel img:hover{
+    filter: none;
+}
+
 .clients-carousel .owl-nav{
     height: 0px !important;
     margin: 0px !important;

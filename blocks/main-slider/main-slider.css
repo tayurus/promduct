@@ -3,6 +3,7 @@
 }
 
 .main-slider__item{
+    border-radius: 3px;
     background: url("img/main-slider-bg.png") no-repeat center / cover;
     display: flex;
     justify-content: space-around;

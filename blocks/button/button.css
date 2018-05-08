@@ -14,7 +14,7 @@ button{
 }
 
 .button_header-call, .button_footer-call{
-    height: 44px;
+    height: 40px;
     border-radius: 3px;
     border: 1px solid #707070;
     padding: 0px 28px;
