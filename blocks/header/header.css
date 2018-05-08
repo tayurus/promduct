@@ -35,12 +35,10 @@
     width: 100%;
 }
 
-.header__top-left{
+.header__top-right{
     max-width: 300px;
     min-width: 300px;
-    padding: 0px 1rem;
     padding-bottom: 20px;
-    padding: 0px 1rem 20px 0px;
 }
 
 .header__bottom{

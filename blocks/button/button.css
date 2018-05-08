@@ -24,6 +24,10 @@ button{
     margin: 0px auto;
 }
 
+.button_header-call{
+    margin-top: 13px;
+}
+
 .button_footer-call{
     color: #fff;
     background: transparent;
