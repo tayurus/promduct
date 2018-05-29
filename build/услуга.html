@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Webpage</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="icon" type="image/ico" href="img/favicon.ico">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Awesome webpage">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js" defer></script>
+		<script src="script.js" defer></script>
+	</head>
+	<body class="text-center text-md-left">
+		<noscript>
+			<p>Please enable Javascript</p>
+		</noscript>
+		<header class="header">
+			<div class="header__top"><a href="#"><img src="img/logo.png" alt="ПСТ" class="header__logo"></a>
+				<div class="header__primary">
+					<div class="d-flex justify-content-between flex-column flex-sm-row">
+						<h2 class="header__quote">Успех нашего<br>заказчика – наш успех</h2>
+						<div class="header__info">
+							<div class="d-flex text-center text-sm-left flex-column flex-sm-row"><a href="mailto:info@promduct.ru" class="link header__text mr-2">info@promduct.ru</a><a href="mailto:promsiltek@gmail.com" class="link header__text">promsiltek@gmail.com</a></div>
+							<div class="header__text text-center text-sm-right">Время работы: пн-пт 09:00-18:00</div>
+						</div>
+					</div>
+					<form class="d-flex">
+						<input type="search" name="search" placeholder="Поиск по сайту" required class="header__search">
+						<button class="button_search">Искать</button>
+					</form>
+				</div>
+				<div class="header__top-right"><a href="tel:+74959406661" class="link link_header-phone">+7 (495) 940-66-61</a>
+					<button class="button_header-call">Заказать обратный звонок</button>
+				</div>
+			</div>
+			<div class="header__bottom">
+				<nav class="navbar navbar-expand-lg py-0 d-flex justify-content-center">
+					<button type="button" data-toggle="collapse" data-target="#headerNav" aria-controls="headerNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><i style="color:#fff" class="fas fa-align-justify"></i></button>
+					<div id="headerNav" class="collapse navbar-collapse">
+						<div class="container">
+							<ul class="header__menu navbar-nav d-flex flex-wrap justify-content-between align-items-center">
+								<li><a href="#" class="header__nav-item header__nav-item_active">Главная</a></li>
+								<li><a href="#" class="header__nav-item">О компании</a></li>
+								<li class="position-relative"><a href="#" class="header__nav-item">Силосы</a>
+									<ul class="header__submenu">
+										<li class="header__submenu-item"><a href="#">Силосы, бункеры для хранения сыпучих материалов</a>
+											<div class="header__submenu__arrow"></div>
+											<ul class="header__submenu2">
+												<li><a href="#">Бункеры для сыпучих материалов</a></li>
+												<li><a href="#">Бункеры для сыпучих материалов</a></li>
+											</ul>
+										</li>
+										<li class="header__submenu-item"><a href="#">Силосные склады больших объемов для сыпучих материалов</a></li>
+										<li class="header__submenu-item"><a href="#">Силосы, бункеры для перевалок сыпучих грузов и материалов</a></li>
+										<li class="header__submenu-item"><a href="#">Силосы, бункеры с повышенной коррозийной стойкостью</a></li>
+										<li class="header__submenu-item"><a href="#">Силосы, бункеры с возможностью постепенного наращивания объема</a></li>
+										<li class="header__submenu-item"><a href="#">Изготовление нестандартных металлоизделий</a></li>
+									</ul>
+								</li>
+								<li><a href="#" class="header__nav-item">Цены</a></li>
+								<li><a href="#" class="header__nav-item">Галерея</a></li>
+								<li><a href="#" class="header__nav-item">Информация</a></li>
+								<li><a href="#" class="header__nav-item">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main> 
+			<div class="container-fluid container_main-bg">
+				<section class="container bg-white">
+					<div class="container">
+						<ul class="breadcrumbs">
+							<li class="breadcrumbs__item"><a href="#" class="link">Главная</a></li>
+							<li class="breadcrumbs__item"><a href="#" class="link">Силосы</a></li>
+							<li class="breadcrumbs__item breadcrumbs__item_active"><a href="#" class="link">Бункеры для сыпучих материалов</a></li>
+						</ul>
+					</div>
+					<div class="title mt-0">
+						<h2 class="title__text">Бункеры для сыпучих материалов</h2>
+					</div>
+					<div class="d-flex flex-column flex-md-row align-items-center align-items-md-start">
+						<ul class="articles">
+							<li class="articles__sublist-title articles__sublist-title_active articles__sublist-title_arrow">Силосы, бункеры для хранения сыпучих материалов</li>
+							<ul class="articles__sublist">
+								<li class="articles__item articles__item_active"><a href="#">Бункеры для сыпучих материалов</a></li>
+								<li class="articles__item"><a href="#">Силосы для сыпучих материалов</a></li>
+							</ul>
+							<li class="articles__sublist-title articles__sublist-title_arrow">Силосные склады больших объемов для сыпучих материалов</li>
+							<ul class="articles__sublist">
+								<li class="articles__item"><a href="#">Статья 1 внутри</a></li>
+								<li class="articles__item"><a href="#">Статья 2 внутри</a></li>
+							</ul>
+							<li class="articles__sublist-title articles__sublist-title_arrow">Силосы, бункеры для перевалок сыпучих грузов и материалов</li>
+							<ul class="articles__sublist">
+								<li class="articles__item"><a href="#">Статья 1 внутри</a></li>
+								<li class="articles__item"><a href="#">Статья 2 внутри</a></li>
+							</ul>
+							<li class="articles__sublist-title"><a href="#">Статья на первом уровне вложенности</a></li>
+						</ul>
+						<div class="article">
+							<h1 style="color: #242424;font-size: 20px;font-weight: 500;line-height: 24px;margin: 0px;margin-bottom: 16px;">Бункеры для сыпучих материалов</h1>
+							<p style="color: #444444;font-size: 16px;line-height: 20px;">Бункер - металлическая емкость, бак, с загрузочным и разгрузочным отверстиями, предназначенный для приема, хранения, накопления и подачи на транспортные средства различных сыпучих материалов, грузов для их дальнейшей переработки.  Высота и поперечный размер бункера, как правило, не сильно отличаются друг от друга по размерам.</p>
+							<p style="margin-bottom: 30px;position: relative;"> Вертикальные устройства такого же назначения, как и бункеры, в которых высота больше поперечного размера, называют силосами.</p>
+							<h2 style="color: #242424;font-size: 20px;font-weight: 500;line-height: 24px;margin-bottom: 16px;">Основные типы (виды) бункеров</h2>
+							<h3 style="color: #000021;font-size: 16px;line-height: 20px;margin-bottom: 16px;font-weight: bold;">1. По назначению</h3>
+							<ul style="list-style:none;padding:0px">
+								<li style="margin-bottom: 30px;position: relative;">Технологические (усредняющие грузопоток) бункеры имеют минимально необходимую вместимость, достаточную для стабильной работы транспортной системы независимо от характера изменения грузопотока;</li>
+								<li style="margin-bottom: 30px;position: relative;">Аккумулирующие бункеры позволяют обеспечивать независимую работу следующих за ними транспортных звеньев (при временном прекращении подачи материала от предшествующих звеньев) за счёт накопления в бункерах некоторого запаса транспортируемого груза;</li>
+								<li style="margin-bottom: 30px;position: relative;"> Бункеры для хранения насыпных грузов</li>
+							</ul>
+							<h3>2. По типу установки</h3>
+							<ul style="list-style:none;padding:0px">
+								<li style="margin-bottom: 30px;position: relative;"> Стационарные бункеры (в зависимости от технологической схемы погрузки в средства внешнего транспорта) бывают приёмными, приёмо-погрузочными и погрузочными. Транспортная связь между приёмными и погрузочными бункерами осуществляется, как правило, с помощью ленточных конвейеров;</li>
+								<li style="margin-bottom: 30px;position: relative;"> Полустационарные и передвижные технологические (усредняющие) механизированные металлические бункеры устанавливают на почву выработки и на рельсовый путь</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<nav class="navbar navbar-expand-md py-3 px-0 d-flex justify-content-center">
+					<button type="button" data-toggle="collapse" data-target="#footerNav" aria-controls="footerNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><i style="color:#fff" class="fas fa-align-justify"> </i><span class="pl-2 text-white">Меню</span></button>
+					<div id="footerNav" class="collapse navbar-collapse">
+						<div class="row justify-content-between pb-4">
+							<div class="col-lg-3 col-md-6">
+								<p class="footer__text text-gray text_small">Подробней с деятельностью компании ООО ПРОМСИЛТЭК, с каталогом производимой нами продукции, с ценами на нее и прочей информацией вы можете на нашем действующем сайте www.promduct.ru</p>
+								<p class="footer__text text-gray text_small">Будем рады помочь вам в решении производственных задач</p>
+								<p class="footer__text text-gray text_small">Успех нашего заказчика – наш успех!!!</p>
+							</div>
+							<div class="col-lg-1 col-md-6">
+								<div class="footer__text_big mb-3 text-white">Компания</div><a href="#" class="footer__text mb-3 d-block">Главная</a><a href="#" class="footer__text mb-3 d-block">О нас</a><a href="#" class="footer__text mb-3 d-block">Отзывы</a><a href="#" class="footer__text mb-3 d-block">Новости</a><a href="#" class="footer__text mb-3 d-block">Контакты</a>
+							</div>
+							<div class="col-lg-2 col-md-6">
+								<div class="footer__text_big mb-3 text-white">Продукция</div><a href="#" class="footer__text mb-3 d-block">Силосы</a><a href="#" class="footer__text mb-3 d-block">Документация</a><a href="#" class="footer__text mb-3 d-block">Цены</a><a href="#" class="footer__text mb-3 d-block">Галерия</a><a href="#" class="footer__text mb-3 d-block">Информация</a>
+							</div>
+							<div class="col-lg-3 col-md-6 px-0"><a href="tel:+74959406661" class="link link_footer-phone">+7 (495) 940-66-61</a>
+								<button class="button_footer-call mb-3">Заказать обратный звонок</button>
+								<div class="footer__text">E-mail:</div>
+								<div class="d-flex justify-content-center justify-content-md-start flex-column flex-xl-row"><a href="#" class="footer__text text_small">info@promduct.ru </a>
+									<div class="d-none d-xl-block footer__text text_small px-2">: </div><a href="#" class="footer__text text_small mb-3">promsiltek@gmail.com</a>
+								</div>
+								<div class="footer__text">Адрес:</div>
+								<div class="footer__text text_small">Московская обл, п. Внииссок, тер. 28 км Можайского Шоссе дом 1А, оф.3</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<div class="footer__bottom d-flex flex-column flex-md-row justify-content-between align-items-center">
+					<div class="footer__text">2018 Promduct. Все права защищены</div>
+					<div class="d-flex">
+						<div class="footer__text pr-2">Сайт разработан </div><a href="http://web-comp.ru"><img src="img/developer.png" alt="WEB-COMP.RU"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

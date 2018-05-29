@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Webpage</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="icon" type="image/ico" href="img/favicon.ico">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Awesome webpage">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js" defer></script>
+		<script src="script.js" defer></script>
+	</head>
+	<body class="text-center text-md-left">
+		<noscript>
+			<p>Please enable Javascript</p>
+		</noscript>
+		<header class="header">
+			<div class="header__top"><a href="#"><img src="img/logo.png" alt="ПСТ" class="header__logo"></a>
+				<div class="header__primary">
+					<div class="d-flex justify-content-between flex-column flex-sm-row">
+						<h2 class="header__quote">Успех нашего<br>заказчика – наш успех</h2>
+						<div class="header__info">
+							<div class="d-flex text-center text-sm-left flex-column flex-sm-row"><a href="mailto:info@promduct.ru" class="link header__text mr-2">info@promduct.ru</a><a href="mailto:promsiltek@gmail.com" class="link header__text">promsiltek@gmail.com</a></div>
+							<div class="header__text text-center text-sm-right">Время работы: пн-пт 09:00-18:00</div>
+						</div>
+					</div>
+					<form class="d-flex">
+						<input type="search" name="search" placeholder="Поиск по сайту" required class="header__search">
+						<button class="button_search">Искать</button>
+					</form>
+				</div>
+				<div class="header__top-right"><a href="tel:+74959406661" class="link link_header-phone">+7 (495) 940-66-61</a>
+					<button class="button_header-call">Заказать обратный звонок</button>
+				</div>
+			</div>
+			<div class="header__bottom">
+				<nav class="navbar navbar-expand-lg py-0 d-flex justify-content-center">
+					<button type="button" data-toggle="collapse" data-target="#headerNav" aria-controls="headerNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><i style="color:#fff" class="fas fa-align-justify"></i></button>
+					<div id="headerNav" class="collapse navbar-collapse">
+						<div class="container">
+							<ul class="header__menu navbar-nav d-flex flex-wrap justify-content-between align-items-center">
+								<li><a href="#" class="header__nav-item header__nav-item_active">Главная</a></li>
+								<li><a href="#" class="header__nav-item">О компании</a></li>
+								<li class="position-relative"><a href="#" class="header__nav-item">Силосы</a>
+									<ul class="header__submenu">
+										<li class="header__submenu-item"><a href="#">Силосы, бункеры для хранения сыпучих материалов</a>
+											<div class="header__submenu__arrow"></div>
+											<ul class="header__submenu2">
+												<li><a href="#">Бункеры для сыпучих материалов</a></li>
+												<li><a href="#">Бункеры для сыпучих материалов</a></li>
+											</ul>
+										</li>
+										<li class="header__submenu-item"><a href="#">Силосные склады больших объемов для сыпучих материалов</a></li>
+										<li class="header__submenu-item"><a href="#">Силосы, бункеры для перевалок сыпучих грузов и материалов</a></li>
+										<li class="header__submenu-item"><a href="#">Силосы, бункеры с повышенной коррозийной стойкостью</a></li>
+										<li class="header__submenu-item"><a href="#">Силосы, бункеры с возможностью постепенного наращивания объема</a></li>
+										<li class="header__submenu-item"><a href="#">Изготовление нестандартных металлоизделий</a></li>
+									</ul>
+								</li>
+								<li><a href="#" class="header__nav-item">Цены</a></li>
+								<li><a href="#" class="header__nav-item">Галерея</a></li>
+								<li><a href="#" class="header__nav-item">Информация</a></li>
+								<li><a href="#" class="header__nav-item">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main></main>
+		<div class="container-fluid container_main-bg">
+			<section class="container_consultation-slider flex-column flex-xl-row align-items-center">
+				<div class="main-slider owl-carousel owl-theme">
+					<div class="main-slider__item">
+						<div>
+							<h2 class="main-slider__title">Сборные силосы объемом 38 м3<br>На выгодных условиях</h2>
+							<button class="button_main-slider">Узнать больше</button>
+						</div><img src="img/main-slider-silos.png" class="main-slider__img">
+					</div>
+					<div class="main-slider__item">
+						<div>
+							<h2 class="main-slider__title">Сборные силосы объемом 38 м3<br>На выгодных условиях</h2>
+							<button class="button_main-slider">Узнать больше</button>
+						</div><img src="img/main-slider-silos.png" class="main-slider__img">
+					</div>
+				</div>
+				<div class="consultation">
+					<h3 class="consultation__title">Не знаете, какой силос<br>подходит именно Вам?</h3>
+					<div class="consultation__subtitle">Оставте заявку и наш <br>специалист Вас проконсультрует</div>
+					<form>
+						<input type="tel" required placeholder="+7(___)___-__-__" class="consultation__input">
+						<button class="button_consultation">Получить консультацию</button>
+					</form>
+				</div>
+			</section>
+			<section class="container px-0 bg-white">
+				<div class="title title_categories">
+					<h2 class="title__text">Категории силосов</h2>
+				</div>
+				<div class="row mx-0">
+					<div class="col-xl-3 col-md-6">
+						<div class="product mx-auto mx-xl-0 mb-3 mb-xl-0"><a href="#" class="product__title">Объем от 38 до 125 м3
+								<div class="product__link-inner"></div></a><img src="img/product.png" alt="Силос" class="product__img">
+							<div class="product__bottom">
+								<div class="d-flex align-items-center justify-content-between">
+									<div class="product__text product-icon">4 600 м</div>
+									<div class="product__text font-weight-bold">от 250 000 руб</div>
+								</div>
+								<hr><a href="#" class="link link_product">Все силосы этой категории</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-md-6">
+						<div class="product mx-auto mx-xl-0 mb-3 mb-xl-0"><a href="#" class="product__title">Объем от 38 до 125 м3
+								<div class="product__link-inner"></div></a><img src="img/product.png" alt="Силос" class="product__img">
+							<div class="product__bottom">
+								<div class="d-flex align-items-center justify-content-between">
+									<div class="product__text product-icon">4 600 м</div>
+									<div class="product__text font-weight-bold">от 250 000 руб</div>
+								</div>
+								<hr><a href="#" class="link link_product">Все силосы этой категории</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-md-6">
+						<div class="product mx-auto mx-xl-0 mb-3 mb-xl-0"><a href="#" class="product__title">Объем от 38 до 125 м3
+								<div class="product__link-inner"></div></a><img src="img/product.png" alt="Силос" class="product__img">
+							<div class="product__bottom">
+								<div class="d-flex align-items-center justify-content-between">
+									<div class="product__text product-icon">4 600 м</div>
+									<div class="product__text font-weight-bold">от 250 000 руб</div>
+								</div>
+								<hr><a href="#" class="link link_product">Все силосы этой категории</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-md-6">
+						<div class="product mx-auto mx-xl-0 mb-3 mb-xl-0"><a href="#" class="product__title">Объем от 38 до 125 м3
+								<div class="product__link-inner"></div></a><img src="img/product.png" alt="Силос" class="product__img">
+							<div class="product__bottom">
+								<div class="d-flex align-items-center justify-content-between">
+									<div class="product__text product-icon">4 600 м</div>
+									<div class="product__text font-weight-bold">от 250 000 руб</div>
+								</div>
+								<hr><a href="#" class="link link_product">Все силосы этой категории</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<section class="container container_about">
+			<div class="row align-items-center">
+				<div class="col-md-6 mb-4 mb-md-0">
+					<h2 class="about__title">Мы будем рады помочь в достижении<br>успехов в вашем деле!</h2>
+					<div class="about__text">Практически любое современное промышленное предприятие, деятельность которого связанна с транспортировкой, потреблением, переработкой, производством, продажей какого-либо сыпучего материала сталкивается с решением вопроса надлежащего и при этом наиболее экономичного хранения сыпучих материалов в рамках своей деятельности – вопроса складирования сыпучего материала.<br>В современном мире предприятия различных отраслей промышленности начинают предъявлять все больше требований к организации наиболее оптимального процесса складирования сыпучего материала, в котором правильное размещение и хранение сыпучего материала (защита от смешивания с другими материалами, защита от загрязнения, соблюдение температурного режима, режима освещенности и влажности и др.) требует наименьших затрат при наивысшем положительном результате.</div>
+				</div>
+				<div class="col-md-6">
+					<div class="d-flex align-items-center mb-4">
+						<div class="about__number">1</div>
+						<div class="about__advantage">Качество на уровне европейских производителей, но по отечественным ценам!</div>
+					</div>
+					<div class="d-flex align-items-center mb-4">
+						<div class="about__number">2</div>
+						<div class="about__advantage">Возможность избавиться от таможенных  пошлин за ввоз емкостного оборудования на территорию РФ</div>
+					</div>
+					<div class="d-flex align-items-center mb-4">
+						<div class="about__number">3</div>
+						<div class="about__advantage">Никаких наценок посредников</div>
+					</div>
+					<div class="d-flex align-items-center mb-4">
+						<div class="about__number">4</div>
+						<div class="about__advantage">Гибкую систему скидок</div>
+					</div>
+					<div class="d-flex align-items-center mb-4">
+						<div class="about__number">5</div>
+						<div class="about__advantage">Оперативность и индивидуальный подход  при решении поставленных задач</div>
+					</div><a href="#" class="link link_product d-block text-right mr-4">Узнать больше о компании</a>
+				</div>
+			</div>
+		</section>
+		<section class="container bg-white">
+			<div class="title">
+				<h2 class="title__text">Отзывы клиентов</h2>
+			</div>
+			<div class="row mx-0">
+				<div class="col-xl-6 mb-4 mb-xl-0 px-0">
+					<div class="feedback text-center text-xl-left">
+						<div class="feedback__title">Сборный силос - СС-270</div>
+						<div class="feedback__text">Изготовлен на нашем производстве и сдан заказчику - март 2017 г.</div>
+						<div class="d-flex justify-content-center justify-content-xl-start flex-column flex-md-row align-items-center"><img src="img/feedback1_1.png" alt="СС-270" class="feedback__img1 img-fluid"><img src="img/feedback1_2.png" alt="Отзыв" class="feedback__img2 img-fluid"><img src="img/feedback-icon.png" alt="Увеличить" class="feedback__show"></div>
+					</div>
+				</div>
+				<div class="col-xl-6 mb-4 mb-xl-0 px-0">
+					<div class="feedback text-center text-xl-left">
+						<div class="feedback__title">Сборный силос - СС-270</div>
+						<div class="feedback__text">Изготовлен на нашем производстве и сдан заказчику - март 2017 г.</div>
+						<div class="d-flex justify-content-center justify-content-xl-start flex-column flex-md-row align-items-center"><img src="img/feedback1_1.png" alt="СС-270" class="feedback__img1 img-fluid"><img src="img/feedback1_2.png" alt="Отзыв" class="feedback__img2 img-fluid"><img src="img/feedback-icon.png" alt="Увеличить" class="feedback__show"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-4 mx-0">
+				<div class="col-sm-6 text-center text-md-left"><a href="#" class="link link_product-black">Посмотреть документацию</a></div>
+				<div class="col-sm-6 text-center text-md-right"><a href="#" class="link link_product">Посмотреть все отзывы</a></div>
+			</div>
+			<div class="feedback__blackout"><img alt="Не удалось загрузить документ" class="feedback__blackout-img"></div>
+		</section>
+		<section class="container">
+			<div class="title">
+				<h2 class="title__text">Последние новости</h2>
+			</div>
+			<div class="d-flex justify-content-around justify-content-xl-between flex-wrap">
+				<div class="new mx-4 my-4 mx-xl-0 my-xl-0"><img src="img/new1.png" alt="Новость 1" class="new__img">
+					<div class="new__wrapper">
+						<h3 class="new__title">Ценообразование на силосы ООО "ПРОМСИЛТЭК"</h3>
+						<div class="new__text">Ценообразование на силосы производства ООО «ПРОМСИЛТЭК». Уважаемые партнеры! В данной статье, как...</div>
+						<div class="d-flex justify-content-between align-items-center new__info">
+							<div class="new__date">21 / 03 / 18</div><a href="#" class="button_news">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="new mx-4 my-4 mx-xl-0 my-xl-0"><img src="img/new2.png" alt="Новость 2" class="new__img">
+					<div class="new__wrapper">
+						<h3 class="new__title">Новое продукции ООО "ПРОМСИЛТЭК" в 2018 г.</h3>
+						<div class="new__text">Новое в продукции ООО "ПРОМСИЛТЭК" в 2018 г. Уважаемые партнеры! Изучив и проанализировав основной...</div>
+						<div class="d-flex justify-content-between align-items-center new__info">
+							<div class="new__date">21 / 03 / 18</div><a href="#" class="button_news">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="new mx-4 my-4 mx-xl-0 my-xl-0"><img src="img/new3.png" alt="Новость 3" class="new__img">
+					<div class="new__wrapper">
+						<h3 class="new__title">Сборные силосы ООО "ПРОМСИЛТЭК" </h3>
+						<div class="new__text">Сборные силосы ООО «ПРОМСИЛТЭК» объектом государственного строительного надзора не являются...</div>
+						<div class="d-flex justify-content-between align-items-center new__info">
+							<div class="new__date">21 / 03 / 18</div><a href="#" class="button_news">Подробнее</a>
+						</div>
+					</div>
+				</div>
+				<div class="new mx-4 my-4 mx-xl-0 my-xl-0"><img src="img/new4.png" alt="Новость 4" class="new__img">
+					<div class="new__wrapper">
+						<h3 class="new__title">Изготовление сборных бункеров</h3>
+						<div class="new__text">Ценообразование на силосы производства ООО «ПРОМСИЛТЭК». Уважаемые партнеры! В данной статье, как...</div>
+						<div class="d-flex justify-content-between align-items-center new__info">
+							<div class="new__date">21 / 03 / 18</div><a href="#" class="button_news">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="container">
+			<div class="title">
+				<h2 class="title__text">Наши клиенты</h2>
+			</div>
+			<div class="owl-carousel owl-theme clients-carousel"><img src="img/client1.png" alt="Vital" width="82px" height="93"><img src="img/client2.png" alt="Эталон" width="234px" height="95px"><img src="img/client3.png" alt="МСК" width="228px" height="93px"><img src="img/client4.png" alt="ЕК" width="204px" height="96px"><img src="img/client1.png" alt="Vital" width="82px" height="93"><img src="img/client2.png" alt="Эталон" width="234px" height="95px"><img src="img/client3.png" alt="МСК" width="228px" height="93px"><img src="img/client4.png" alt="ЕК" width="204px" height="96px"></div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<nav class="navbar navbar-expand-md py-3 px-0 d-flex justify-content-center">
+					<button type="button" data-toggle="collapse" data-target="#footerNav" aria-controls="footerNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><i style="color:#fff" class="fas fa-align-justify"> </i><span class="pl-2 text-white">Меню</span></button>
+					<div id="footerNav" class="collapse navbar-collapse">
+						<div class="row justify-content-between pb-4">
+							<div class="col-lg-3 col-md-6">
+								<p class="footer__text text-gray text_small">Подробней с деятельностью компании ООО ПРОМСИЛТЭК, с каталогом производимой нами продукции, с ценами на нее и прочей информацией вы можете на нашем действующем сайте www.promduct.ru</p>
+								<p class="footer__text text-gray text_small">Будем рады помочь вам в решении производственных задач</p>
+								<p class="footer__text text-gray text_small">Успех нашего заказчика – наш успех!!!</p>
+							</div>
+							<div class="col-lg-1 col-md-6">
+								<div class="footer__text_big mb-3 text-white">Компания</div><a href="#" class="footer__text mb-3 d-block">Главная</a><a href="#" class="footer__text mb-3 d-block">О нас</a><a href="#" class="footer__text mb-3 d-block">Отзывы</a><a href="#" class="footer__text mb-3 d-block">Новости</a><a href="#" class="footer__text mb-3 d-block">Контакты</a>
+							</div>
+							<div class="col-lg-2 col-md-6">
+								<div class="footer__text_big mb-3 text-white">Продукция</div><a href="#" class="footer__text mb-3 d-block">Силосы</a><a href="#" class="footer__text mb-3 d-block">Документация</a><a href="#" class="footer__text mb-3 d-block">Цены</a><a href="#" class="footer__text mb-3 d-block">Галерия</a><a href="#" class="footer__text mb-3 d-block">Информация</a>
+							</div>
+							<div class="col-lg-3 col-md-6 px-0"><a href="tel:+74959406661" class="link link_footer-phone">+7 (495) 940-66-61</a>
+								<button class="button_footer-call mb-3">Заказать обратный звонок</button>
+								<div class="footer__text">E-mail:</div>
+								<div class="d-flex justify-content-center justify-content-md-start flex-column flex-xl-row"><a href="#" class="footer__text text_small">info@promduct.ru </a>
+									<div class="d-none d-xl-block footer__text text_small px-2">: </div><a href="#" class="footer__text text_small mb-3">promsiltek@gmail.com</a>
+								</div>
+								<div class="footer__text">Адрес:</div>
+								<div class="footer__text text_small">Московская обл, п. Внииссок, тер. 28 км Можайского Шоссе дом 1А, оф.3</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<div class="footer__bottom d-flex flex-column flex-md-row justify-content-between align-items-center">
+					<div class="footer__text">2018 Promduct. Все права защищены</div>
+					<div class="d-flex">
+						<div class="footer__text pr-2">Сайт разработан </div><a href="http://web-comp.ru"><img src="img/developer.png" alt="WEB-COMP.RU"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
